@@ -1,0 +1,137 @@
+.facebook-profile-container {
+    width: 500px;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+h1{
+   background-color: black; 
+   background-size: auto;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px;
+    width: auto;
+}
+
+footer{
+    padding: 10px 20px;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 0%;
+    width: auto;
+}
+ul{
+    font-size: larger;
+    color:black;
+}
+
+@media screen and(max-width:600px)
+{
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    flex: 1 0 300px; /* Adjust flex properties as needed */
+    /* Add other styles for each item */
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:black;
+  }
+  Ul{
+    font-size: 30px;
+    color: black;
+  }
+  body{
+    max-width: fit-content;
+  }
+  
+  .navbar {
+    background-color:black;
+    overflow: hidden;
+     ;
+}
+
+.navbar a {
+    float: left;
+    color: #fffcfc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+    color: #333;
+}
+h5{
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.date{
+  text-align: left;
+  color: white;
+  padding: 10px 10px;
+  size: 5px;
+  text-shadow: #333;
+}
